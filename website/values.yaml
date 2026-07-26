@@ -1,0 +1,14 @@
+replicaCount: 1
+
+image:
+  repository: ankushramne4/new_repo
+  tag: "1"
+  pullPolicy: Always
+
+container:
+  port: 80
+
+service:
+  type: NodePort
+  port: 8082
+  targetPort: 80
