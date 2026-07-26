@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: ankushramne4/new_repo
-  tag: "1"
+  tag: 90
   pullPolicy: Always
 
 container:
