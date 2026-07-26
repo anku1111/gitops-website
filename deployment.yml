@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: php-website
-        image: ankushramne4/new_repo:83
+        image: ankushramne4/new_repo:84
         imagePullPolicy: Always
         ports:
         - containerPort: 80
